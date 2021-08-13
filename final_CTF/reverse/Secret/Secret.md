@@ -6,7 +6,7 @@
 
 - 執行一下，大概猜到是要我們輸入正確 flag 才會跳出正確結果
 
-    ![]()
+    ![](https://github.com/Sharkkcode/NISRA_CTF_2021_writeups/blob/main/final_CTF/reverse/Secret/imgs/run_test.png)
 
 - 接著丟進 ghidra
 
