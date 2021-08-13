@@ -8,7 +8,9 @@
 
     ![](https://github.com/Sharkkcode/NISRA_CTF_2021_writeups/blob/main/final_CTF/reverse/Secret/imgs/run_test.png)
 
-- 接著丟進 ghidra
+- 接著丟進 ghidra，追蹤 check function
 
-    ![]()
+    ![](https://github.com/Sharkkcode/NISRA_CTF_2021_writeups/blob/main/final_CTF/reverse/Secret/imgs/decompile.png)
+
+- 發現 check 其實只是用了一堆很簡單的字源比對... 把對應的字元填入 param_1，param_1 就是 flag (不過要注意 param_1 的 index 是用什麼進位法)
 
