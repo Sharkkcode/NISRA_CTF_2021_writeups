@@ -1,6 +1,6 @@
 # ccc
 
-- 檢查檔案
+- 檢查檔案，會發現 ***Arch: i386-32-little***，這很重要因為這樣才會知道等等的 hashes 值要用 ***little-endian*** 方式來存。
 
     ![](https://github.com/Sharkkcode/NISRA_CTF_2021_writeups/blob/main/final_CTF/reverse/ccc/img/checkfile.png)
 
