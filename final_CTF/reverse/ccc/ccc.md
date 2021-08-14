@@ -1,1 +1,1 @@
-![](https://github.com/Sharkkcode/NISRA_CTF_2021_writeups/blob/main/final_CTF/reverse/ccc/get_flag.py)
+![code](https://github.com/Sharkkcode/NISRA_CTF_2021_writeups/blob/main/final_CTF/reverse/ccc/get_flag.py)
