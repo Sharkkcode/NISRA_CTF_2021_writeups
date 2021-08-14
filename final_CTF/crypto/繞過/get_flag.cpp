@@ -58,18 +58,22 @@ void switch_sequence(int n){
 
 int main(){
 
+    // 明文爆破基底
     string plaintext = "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA";
+    
+    // 所求密文
     string ans =       "vvDtf[ATbSl]cFy[grQloWSYatwEIk[eYexigte";
     
     string ciphertext;
     int tmp = 0;
-    int store_tmp = 0;
     char cipher_letter;
+    
     for (int i = 0; i < plaintext.size(); i++){
         make_encrypt_string();
 
         cipher_letter = 65 + ((plaintext[i] + encrypt_string[tmp % encrypt_string.size()]) % 58);
 
+        // 檢查，不對就回朔
         if(cipher_letter == ans[i]) {
             ciphertext += cipher_letter;
             cout << plaintext << "\n";
